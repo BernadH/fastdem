@@ -10,8 +10,13 @@ fastq demultiplexer
 Usage: main.py [-h] -i INPUT -b BARCODES [-o OUTDIR] [-t THREADS] [-v] [-s]
 
 -i, --input: Input file to search patterns on.
+
 -b, --barcodes: File containing patterns to be searched for.
+
 -o, --outdir: Output directory (default: current directory).
+
 -t, --threads: Maximum number of threads to use (default: maximum available).
+
 -v, --version: Display current version and exit.
+
 -s, --silent: Turn off verbose mode. (TO DO)
